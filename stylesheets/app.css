@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Raleway";
+  font-size: 14px;
+  color: white;
+  background-color: #181f2a;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav-left {
+  margin-left: 6vw;
+}
+
+header img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+header .nav-right ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 6vw;
+}
+
+header .nav-right ul li {
+  margin: auto 10px;
+  padding: auto 15px;
+}
+
+header .nav-right ul a {
+  color: white;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 10vw;
+}
+
+.hero .sc1-top img {
+  width: 100%;
+}
+
+.hero .sc1-bottom h1,
+.hero .sc1-bottom p {
+  text-align: center;
+}
+/*# sourceMappingURL=app.css.map */
