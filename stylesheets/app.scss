@@ -100,5 +100,19 @@ header {
     }
   }
 }
+.collab {
+  margin: 30px 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  img {
+    width: 33%;
+    margin-left: 33%;
+  }
+  .sc4 h1,
+  p {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 376px) {
 }
