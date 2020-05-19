@@ -55,5 +55,50 @@ header {
     }
   }
 }
+.btn {
+  background-color: hsl(198, 60%, 50%);
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 40px;
+}
+.btn__start {
+  margin-left: 15%;
+}
+.access {
+  margin: 30px 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  img {
+    width: 33%;
+    margin-left: 33%;
+    align-items: center;
+  }
+  .sc2 {
+    h1,
+    p {
+      text-align: center;
+    }
+  }
+}
+.security {
+  margin: 30px 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  img {
+    width: 33%;
+    margin-left: 33%;
+  }
+  .sc3 {
+    h1,
+    p {
+      text-align: center;
+    }
+  }
+}
 @media screen and (min-width: 376px) {
 }

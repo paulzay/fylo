@@ -68,4 +68,69 @@ header .nav-right ul a {
 .hero .sc1-bottom p {
   text-align: center;
 }
+
+.btn {
+  background-color: #339ecc;
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 40px;
+}
+
+.btn__start {
+  margin-left: 15%;
+}
+
+.access {
+  margin: 30px 6vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.access img {
+  width: 33%;
+  margin-left: 33%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.access .sc2 h1,
+.access .sc2 p {
+  text-align: center;
+}
+
+.security {
+  margin: 30px 6vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.security img {
+  width: 33%;
+  margin-left: 33%;
+}
+
+.security .sc3 h1,
+.security .sc3 p {
+  text-align: center;
+}
 /*# sourceMappingURL=app.css.map */
